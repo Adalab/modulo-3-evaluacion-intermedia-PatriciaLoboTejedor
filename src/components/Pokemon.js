@@ -1,4 +1,5 @@
-/*import PropTypes from "prop-types";*/
+import React from "react";
+import PropTypes from "prop-types";
 
 function Pokemon(props) {
   const poketypes = () => {
@@ -20,8 +21,14 @@ function Pokemon(props) {
   );
 }
 
-/*Pokemon.propTypes = {
-  props.pokeItem.name: PropTypes.objectOf(PropTypes.string).isRequired
-};*/
+Pokemon.propTypes = {
+  pokeItem: PropTypes.exact({
+    name: PropTypes.string.isRequired,
+    id: PropTypes.number.isRequired,
+    types: PropTypes.array.isRequired,
+    evolution: PropTypes.string,
+    url: PropTypes.string.isRequired,
+  }),
+};
 
 export default Pokemon;

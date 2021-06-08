@@ -1,6 +1,7 @@
+import React from "react";
 import Pokemon from "./Pokemon";
 import "../stylesheets/pokelist.scss";
-/*import PropTypes from "prop-types";*/
+import PropTypes from "prop-types";
 
 function PokeList(props) {
   const pokeList = props.pokedata.map((pokeItem) => (
@@ -11,8 +12,8 @@ function PokeList(props) {
   return <ul>{pokeList}</ul>;
 }
 
-/*PokeList.propTypes = {
-  pokeList: PropTypes.arrayOf(PropTypes.object).isRequired,
-};*/
+PokeList.propTypes = {
+  pokedata: PropTypes.array.isRequired,
+};
 
 export default PokeList;
