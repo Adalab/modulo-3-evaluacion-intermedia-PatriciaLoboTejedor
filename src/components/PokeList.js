@@ -1,4 +1,3 @@
-import React from "react";
 import Pokemon from "./Pokemon";
 import "../stylesheets/pokelist.scss";
 import PropTypes from "prop-types";
