@@ -4,6 +4,8 @@
 
 **Objetivo:** El ejercicio consiste en desarrollar una página web sencilla con React.
 
+![EnunciadoEvaluaciónIntermedia](https://user-images.githubusercontent.com/81681513/121150943-3e17a380-c844-11eb-88c4-d646631c2e52.jpg)
+
 ## Descripción del proyecto:
 
 La web consiste en un listado de pokemon, con una tarjeta para cada uno con información relevante, como el nombre, tipos y una imagen. La información de los pokemon la obtenemos de un array de datos que incluiremos en el estado del componente App.
