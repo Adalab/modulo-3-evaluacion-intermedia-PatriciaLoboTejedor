@@ -13,10 +13,10 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <header>
+        <header className="header">
           <h1>Mi lista de Pokemon</h1>
         </header>
-        <main className="App">
+        <main className="main">
           <PokeList pokedata={this.state.pokedex} />
         </main>
       </>

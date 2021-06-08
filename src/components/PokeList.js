@@ -9,7 +9,7 @@ function PokeList(props) {
       <Pokemon pokeItem={pokeItem} />
     </li>
   ));
-  return <ul>{pokeList}</ul>;
+  return <ul className="pokeList">{pokeList}</ul>;
 }
 
 PokeList.propTypes = {
